@@ -10,11 +10,12 @@ public class Main {
         System.out.println("Задание 2");
         String s1 = fullName.toUpperCase();
         System.out.println("Данные ФИО сотрудника для заполнения отчета- " + s1);
-
+    task3();}
+    public static void task3() {
         System.out.println("Задание 3");
-        fullName = fullName.replace(fullName, "Иванов Семён Семёнович");
+        String fullName = "Иванов Семён Семёнович";
         fullName = fullName.replace("ё", "е");
-        System.out.println("Данные ФИО сотрудника-"+fullName);
+        System.out.println("Данные ФИО сотрудника-" + fullName);
 
     }
 }
